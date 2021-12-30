@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+.cabecalho{
+    margin-top: 5px;
+    height: 50px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.conteudo-cabecalho{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 0 4px 0 32px;
+}
+.logo-da-conta{
+    box-sizing: content-box;
+    border-radius: 50px;
+    border: 4px solid transparent;
+    width: 33px;
+    transition: all 0.1s linear;
+}
+
+.logo-da-conta:hover{
+    border: 4px solid rgba(204, 204, 204, 0.356);
+    transition: all 0.1s linear;
+}
+
+.menu-logo-area{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    border: 20px solid transparent;
+}
+.menu-logo-area:hover{
+    transition: all 0.1s linear;
+    border: 20px solid rgba(204, 204, 204, 0.356);
+}
+
+
+.menu-logo{
+    position: absolute;
+    top: 13px;
+    right: 75px;
+    box-sizing: content-box;
+    height: 17px;
+    width: 17px;
+    opacity: 0.5;
+    border: 9px solid transparent;
+    transition: all 0.1s linear;
+}
+.cabecalho-link{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.cabecalho-link:hover{
+    text-decoration: underline;
+}
+
+.conteudo-principal{
+    height: 78%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pesquisa{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-principal{
+    width: 200px;
+}
+
+.barra-de-pesquisa{
+    height: 45px;
+    width: 580px;
+    background-color: #fff;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    outline: 1px solid rgba(170, 170, 170, 0.445);
+}
+
+.barra-de-pesquisa:hover{
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+.icone-pesquisa{
+    opacity: 0.3;
+    margin: 0 10px 0 14px;
+}
+.icone-microfone,
+.icone-teclado{
+    opacity: 0.3;
+    margin: 0 5px 0 7px;
+    cursor: pointer;
+}
+
+
+.input-pesquisa{
+    height: 34px;
+    outline: none;
+    border: none;
+    width: 77%;
+    font-size: 16px;
+}
+.botoes-principal-area{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.botoes-principal{
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #f8f9fa;
+    background-color: #f8f9fa;
+    text-align: center;
+    color: #202124;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botoes-principal:hover{
+    outline: 1px solid rgba(170, 170, 170, 0.479);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border: 1px solid #dadce0;
+    background-color: #f8f9fa;
+}
+
+.rodape{
+    height: 14%;
+    background-color: #F2F2F2;
+}
+
+.pais{
+    padding: 15px 15px 15px 30px;
+    color: #70757A;
+}
+
+.rodape-links{
+    border-top: 1px solid rgba(150, 150, 150, 0.288);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre{
+    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.termos{
+    padding-right: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.sobre a,
+.termos a{
+    text-decoration: none;
+    color: #70757A;
+    font-size: 14px;
+}
+
+.sobre a:hover,
+.termos a:hover{
+    text-decoration:underline;
+}
